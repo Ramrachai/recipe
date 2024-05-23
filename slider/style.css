@@ -1,0 +1,51 @@
+.hero-slider {
+    /* border: 2px solid red; */
+}
+
+.item {
+    cursor: grab;
+}
+
+.item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    border: none;
+    outline: none;
+    background: rgba(246, 246, 246, 0.515);
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transition: all .4s ease;
+}
+
+.slider-arrow:hover {
+    background: rgba(246, 246, 246, 0.971);
+}
+
+.blaze-prev {
+    left: 0px;
+}
+
+.blaze-next {
+    right: 0px;
+}
+
+.blaze-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    gap: 6px;
+}
+
+.active {
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+}
